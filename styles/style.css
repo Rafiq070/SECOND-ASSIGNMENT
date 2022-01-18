@@ -1,6 +1,44 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*Common styles and Utilities */
+
 body{
-    background-color: rgb(206, 220, 231);
+    font-family: 'Poppins', sans-serif;
+    background-color:  #eee6e6;
+    
 }
-h1{
-    color: darkgreen;
+.influencer{
+
+   font-size: 16px;
+}
+.heading{
+    margin-top: 67px;
+    margin-left: 120px;
+}
+.heading-title{
+    display: flex;
+}
+.heading-text{
+    width: 582px;
+    height: 270px;
+    margin-top: 105px;
+}
+.journey{
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+.first-button{
+    font-size: 16px;
+    padding: 10px 24px;
+    color: beige;
+    background-color: #E02C6D;
+    border-radius: 41px;
+   
+}
+.heading-image{
+    width: 440px;
+    height: 414px;
+    margin-left: 125px;
+    margin-top: 50px;
 }
