@@ -14,7 +14,7 @@ body{
     font-size: 16px;
 }
 .heading{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 120px;
 }
 .heading-title{
@@ -41,7 +41,13 @@ body{
     width: 1047px;
     height: 1662px;
     margin-left: 120px;
-    margin-top: 200px;
+    margin-top: 150px;
+}
+.popular{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 .heading-image{
     width: 440px;
@@ -73,4 +79,41 @@ body{
     color: #FB8200;
     margin-top: 0px;
     
+}
+.see-more{
+    font-size: 18px;
+    color:#E02C6DDE;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    
+}
+.third-container{
+    display: flex;
+    width: 1110px;
+    height: 270px;
+    margin-top: 250px ;
+    margin-left: 120px;
+}
+.third-container img{
+    margin-right: 80px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 130px;
+    padding: 10px 0px;
+    height: 200px;
+    background-color: rgb(51, 49, 49);
+}
+
+.icon{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+
 }
